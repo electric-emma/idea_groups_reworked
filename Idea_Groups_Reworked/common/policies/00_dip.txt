@@ -1522,3 +1522,230 @@ canoe_expertise_policy = {
 		factor = 1
 	}
 }
+
+internal_and_external_stability = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = stability_ideas
+		OR = {
+			has_idea_group = diplomatic_ideas
+			has_idea_group = influence_ideas
+			has_idea_group = spy_ideas
+			has_idea_group = maritime_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = trade_ideas
+			has_idea_group = ambition_ideas
+			has_idea_group = assimilation_ideas
+			has_idea_group = conquest_ideas
+			has_idea_group = propaganda_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = stability_ideas
+		OR = {
+			full_idea_group = diplomatic_ideas
+			full_idea_group = influence_ideas
+			full_idea_group = spy_ideas
+			full_idea_group = maritime_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = trade_ideas
+			full_idea_group = ambition_ideas
+			full_idea_group = assimilation_ideas
+			full_idea_group = conquest_ideas
+			full_idea_group = propaganda_ideas
+		}
+	}
+	
+	global_unrest = -2
+	improve_relation_modifier = 0.2
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
+
+logistical_diplomacy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = logistics_ideas
+		OR = {
+			has_idea_group = diplomatic_ideas
+			has_idea_group = influence_ideas
+			has_idea_group = spy_ideas
+			has_idea_group = maritime_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = trade_ideas
+			has_idea_group = ambition_ideas
+			has_idea_group = assimilation_ideas
+			has_idea_group = conquest_ideas
+			has_idea_group = propaganda_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = logistics_ideas
+		OR = {
+			full_idea_group = diplomatic_ideas
+			full_idea_group = influence_ideas
+			full_idea_group = spy_ideas
+			full_idea_group = maritime_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = trade_ideas
+			full_idea_group = ambition_ideas
+			full_idea_group = assimilation_ideas
+			full_idea_group = conquest_ideas
+			full_idea_group = propaganda_ideas
+		}
+	}
+	
+	diplomatic_upkeep = 1
+	land_attrition = -0.1
+	movement_speed = 0.1
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
+
+cultural_primacy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = assimilation_ideas
+		OR = {
+			has_idea_group = administrative_ideas
+			has_idea_group = economic_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = humanist_ideas
+			has_idea_group = innovativeness_ideas
+			has_idea_group = religious_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = assimilation_ideas
+		OR = {
+			full_idea_group = administrative_ideas
+			full_idea_group = economic_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = humanist_ideas
+			full_idea_group = innovativeness_ideas
+			full_idea_group = religious_ideas
+		}
+	}
+	
+	culture_conversion_cost = -0.1
+	global_unrest = 1
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
+
+diplomatic_ascendancy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = ambition_ideas
+		OR = {
+			has_idea_group = administrative_ideas
+			has_idea_group = economic_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = humanist_ideas
+			has_idea_group = innovativeness_ideas
+			has_idea_group = religious_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = ambition_ideas
+		OR = {
+			full_idea_group = administrative_ideas
+			full_idea_group = economic_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = humanist_ideas
+			full_idea_group = innovativeness_ideas
+			full_idea_group = religious_ideas
+		}
+	}
+	
+	province_warscore_cost = -0.1
+	diplomatic_reputation = 1
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
+
+conquest_through_any_means = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = conquest_ideas
+		OR = {
+			has_idea_group = administrative_ideas
+			has_idea_group = economic_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = humanist_ideas
+			has_idea_group = innovativeness_ideas
+			has_idea_group = religious_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = conquest_ideas
+		OR = {
+			full_idea_group = administrative_ideas
+			full_idea_group = economic_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = humanist_ideas
+			full_idea_group = innovativeness_ideas
+			full_idea_group = religious_ideas
+		}
+	}
+	
+	ae_impact = -0.1
+	diplomatic_annexation_cost = -0.1
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
+
+propaganda_at_home_and_abroad = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = propaganda_ideas
+		OR = {
+			has_idea_group = administrative_ideas
+			has_idea_group = economic_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = humanist_ideas
+			has_idea_group = innovativeness_ideas
+			has_idea_group = religious_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = propaganda_ideas
+		OR = {
+			full_idea_group = administrative_ideas
+			full_idea_group = economic_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = humanist_ideas
+			full_idea_group = innovativeness_ideas
+			full_idea_group = religious_ideas
+		}
+	}
+	
+	unjustified_demands = -0.25
+	harsh_treatment_cost = -0.25
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
