@@ -338,7 +338,7 @@ offensive_ideas = {
 
 	bonus = {
 		recover_army_morale_speed = 0.05
-		land_attrition = -0.33
+		land_attrition = -0.2
 	}
 
 	bayonet_leaders = {
@@ -999,14 +999,14 @@ stability_ideas = {
 	category = ADM
 	
 	bonus = {
-		prestige = 1
+		all_estate_loyalty_equilibrium = 0.05
 	}
 	
 	stability1 = {
 		stability_cost_modifier = -0.25
 	}
 	stability2 = {
-		global_unrest = -3
+		global_unrest = -2
 	}
 	stability3 = {
 		legitimacy = 1
@@ -1135,7 +1135,7 @@ conquest_ideas = {
 	}
 	
 	conquest1 = {
-		ae_impact = -0.2
+		ae_impact = -0.1
 	}
 	conquest2 = {
 		prestige = 1
@@ -1175,5 +1175,147 @@ mercenary_ideas = {
 	
 	ai_will_do = {
 		factor = 0.5
+	}
+}
+
+absolutism_ideas = {
+	category = ADM
+	
+	trigger = {
+		is_institution_enabled = global_trade
+	}
+	
+	bonus = {
+		global_autonomy = -0.05
+	}
+	
+	absolutism1 = {
+		max_absolutism = 20
+	}
+	absolutism2 = {
+		yearly_absolutism = 1.0
+	}
+	absolutism3 = {
+		yearly_corruption = -0.1
+	}
+	absolutism4 = {
+		harsh_treatment_cost = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 0.5
+	}
+}
+
+ambition_ideas = {
+	category = DIP
+	
+	bonus = {
+		local_heir_adm = 1
+		diplomats = 1
+	}
+	
+	ambition1 = {
+		monthly_splendor = 2
+		prestige_decay = -0.01
+	}
+	ambition2 = {
+		power_projection_from_insults = 1
+	}
+	ambition3 = {
+		liberty_desire = -10
+		diplomatic_annexation_cost = -0.1
+	}
+	ambition4 = {
+		advisor_cost = -0.1
+		advisor_pool = 1
+	}
+	
+	ai_will_do = {
+		factor = 0.7
+	}
+}
+
+propaganda_ideas = {
+	category = DIP
+	
+	bonus = {
+		diplomats = 1
+		legitimacy = .5
+		republican_tradition = .25
+		horde_unity = .5
+		devotion = .5
+		meritocracy = .25
+	}
+	
+	propaganda1 = {
+		ae_impact = -0.2
+	}
+	propaganda2 = {
+		global_unrest = -1
+	}
+	propaganda3 = {
+		siege_ability = 0.1
+	}
+	propaganda4 = {
+		diplomatic_reputation = 2
+	}
+	
+	ai_will_do = {
+		factor = 0.65
+	}
+}
+
+logistics_ideas = {
+	category = MIL
+	
+	bonus = {
+		siege_ability = 0.1
+		recover_army_morale_speed = 0.1
+	}
+	
+	logistics1 = {
+		movement_speed = 0.2
+	}
+	logistics2 = {
+		reinforce_speed = 0.33
+	}
+	logistics3 = {
+		global_supply_limit_modifier = 0.33
+	}
+	logistics4 = {
+		land_attrition = -0.3
+	}
+	
+	ai_will_do = {
+		factor = 0.45
+	}
+}
+
+professionalism_ideas = {
+	category = MIL
+	
+	bonus = {
+		drill_gain_modifier = 0.25
+		drill_decay_modifier = -0.50
+	}
+	
+	professionalism1 = {
+		yearly_army_professionalism = 0.01
+	}
+	professionalism2 = {
+		infantry_power = 0.05
+		cavalry_power = 0.05
+		artillery_power = 0.05
+	}
+	professionalism3 = {
+		army_tradition_decay = -0.01
+	}
+	professionalism4 = {
+		discipline = 0.05
+	}
+	
+	ai_will_do = {
+		factor = 0.7
 	}
 }
