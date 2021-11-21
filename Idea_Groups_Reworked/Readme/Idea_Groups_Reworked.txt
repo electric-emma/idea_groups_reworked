@@ -1,0 +1,5 @@
+Idea Groups Reworked
+Author: Electric Shocks (aka Emma)
+
+Rebalance and redo how idea groups are handled in the game
+Goal is smaller and more focused idea groups, with more idea groups being taken throughout the game

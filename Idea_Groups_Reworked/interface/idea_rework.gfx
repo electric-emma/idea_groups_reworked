@@ -1,0 +1,44 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_stability_ideas"
+		texturefile = "gfx//interface//ideas//idea_stability_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_centralism_ideas"
+		texturefile = "gfx//interface//ideas//idea_centralism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_decentralism_ideas"
+		texturefile = "gfx//interface//ideas//idea_decentralism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_assimilation_ideas"
+		texturefile = "gfx//interface//ideas//idea_assimilation_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_conquest_ideas"
+		texturefile = "gfx//interface//ideas//idea_conquest_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_mercenary_ideas"
+		texturefile = "gfx//interface//ideas//idea_mercenary_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
