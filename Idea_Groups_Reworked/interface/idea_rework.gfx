@@ -41,4 +41,39 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_idea_absolutism_ideas"
+		texturefile = "gfx//interface//ideas//idea_absolutism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_ambition_ideas"
+		texturefile = "gfx//interface//ideas//idea_ambition_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_propaganda_ideas"
+		texturefile = "gfx//interface//ideas//idea_propaganda_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_logistics_ideas"
+		texturefile = "gfx//interface//ideas//idea_logistics_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_professionalism_ideas"
+		texturefile = "gfx//interface//ideas//idea_profesionalism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }

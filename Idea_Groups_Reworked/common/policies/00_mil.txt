@@ -1359,3 +1359,260 @@ render_unto_caesar_policy = {
 		}
 	}
 }
+
+state_army = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = absolutism_ideas
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = defensive_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = horde_gov_ideas
+			has_idea_group = indigenous_ideas
+			has_idea_group = naval_ideas
+			has_idea_group = offensive_ideas
+			has_idea_group = plutocracy_ideas
+			has_idea_group = quality_ideas
+			has_idea_group = quantity_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = absolutism_ideas
+		OR = {
+			full_idea_group = aristocracy_ideas
+			full_idea_group = defensive_ideas
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = horde_gov_ideas
+			full_idea_group = indigenous_ideas
+			full_idea_group = naval_ideas
+			full_idea_group = offensive_ideas
+			full_idea_group = plutocracy_ideas
+			full_idea_group = quality_ideas
+			full_idea_group = quantity_ideas
+		}
+	}
+	
+	discipline = 0.025
+	war_exhaustion = -0.05
+	
+	ai_will_do = {
+		factor = 0.5
+	}
+}
+
+mercenary_contracts = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = mercenary_ideas
+		OR = {
+			has_idea_group = diplomatic_ideas
+			has_idea_group = influence_ideas
+			has_idea_group = spy_ideas
+			has_idea_group = maritime_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = trade_ideas
+			has_idea_group = ambition_ideas
+			has_idea_group = assimilation_ideas
+			has_idea_group = conquest_ideas
+			has_idea_group = propaganda_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = mercenary_ideas
+		OR = {
+			full_idea_group = diplomatic_ideas
+			full_idea_group = influence_ideas
+			full_idea_group = spy_ideas
+			full_idea_group = maritime_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = trade_ideas
+			full_idea_group = ambition_ideas
+			full_idea_group = assimilation_ideas
+			full_idea_group = conquest_ideas
+			full_idea_group = propaganda_ideas
+		}
+	}
+	
+	merc_maintenance_modifier = -0.15
+	mercenary_manpower = 0.25
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
+
+mercenary_army = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = mercenary_ideas
+		OR = {
+			has_idea_group = administrative_ideas
+			has_idea_group = economic_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = humanist_ideas
+			has_idea_group = innovativeness_ideas
+			has_idea_group = religious_ideas
+			has_idea_group = centralism_ideas
+			has_idea_group = decentralism_ideas
+			has_idea_group = absolutism_ideas
+			has_idea_group = stability_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = mercenary_ideas
+		OR = {
+			full_idea_group = administrative_ideas
+			full_idea_group = economic_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = humanist_ideas
+			full_idea_group = innovativeness_ideas
+			full_idea_group = religious_ideas
+			full_idea_group = centralism_ideas
+			full_idea_group = decentralism_ideas
+			full_idea_group = absolutism_ideas
+			full_idea_group = stability_ideas
+		}
+	}
+	
+	merc_maintenance_modifier = -0.15
+	mercenary_manpower = 0.25
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
+
+words_with_might = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = professionalism_ideas
+		OR = {
+			has_idea_group = diplomatic_ideas
+			has_idea_group = influence_ideas
+			has_idea_group = spy_ideas
+			has_idea_group = maritime_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = trade_ideas
+			has_idea_group = ambition_ideas
+			has_idea_group = assimilation_ideas
+			has_idea_group = conquest_ideas
+			has_idea_group = propaganda_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = professionalism_ideas
+		OR = {
+			full_idea_group = diplomatic_ideas
+			full_idea_group = influence_ideas
+			full_idea_group = spy_ideas
+			full_idea_group = maritime_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = trade_ideas
+			full_idea_group = ambition_ideas
+			full_idea_group = assimilation_ideas
+			full_idea_group = conquest_ideas
+			full_idea_group = propaganda_ideas
+		}
+	}
+	
+	diplomats = 1
+	land_morale = 0.1
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
+
+professional_discipline = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = professionalism_ideas
+		OR = {
+			has_idea_group = administrative_ideas
+			has_idea_group = economic_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = humanist_ideas
+			has_idea_group = innovativeness_ideas
+			has_idea_group = religious_ideas
+			has_idea_group = centralism_ideas
+			has_idea_group = decentralism_ideas
+			has_idea_group = absolutism_ideas
+			has_idea_group = stability_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = professionalism_ideas
+		OR = {
+			full_idea_group = administrative_ideas
+			full_idea_group = economic_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = humanist_ideas
+			full_idea_group = innovativeness_ideas
+			full_idea_group = religious_ideas
+			full_idea_group = centralism_ideas
+			full_idea_group = decentralism_ideas
+			full_idea_group = absolutism_ideas
+			full_idea_group = stability_ideas
+		}
+	}
+	
+	discipline = 0.05
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
+
+fight_with_our_stomachs = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = logistics_ideas
+		OR = {
+			has_idea_group = administrative_ideas
+			has_idea_group = economic_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = humanist_ideas
+			has_idea_group = innovativeness_ideas
+			has_idea_group = religious_ideas
+			has_idea_group = centralism_ideas
+			has_idea_group = decentralism_ideas
+			has_idea_group = absolutism_ideas
+			has_idea_group = stability_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = logistics_ideas
+		OR = {
+			full_idea_group = administrative_ideas
+			full_idea_group = economic_ideas
+			full_idea_group = expansion_ideas
+			full_idea_group = humanist_ideas
+			full_idea_group = innovativeness_ideas
+			full_idea_group = religious_ideas
+			full_idea_group = centralism_ideas
+			full_idea_group = decentralism_ideas
+			full_idea_group = absolutism_ideas
+			full_idea_group = stability_ideas
+		}
+	}
+	
+	land_morale = 0.1
+	reinforce_speed = 0.2
+	
+	ai_will_do = {
+		factor = .5
+	}
+}
